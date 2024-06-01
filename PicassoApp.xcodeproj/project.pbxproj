@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		792762C62C0B2E98009DC141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792762C52C0B2E98009DC141 /* AppDelegate.swift */; };
 		792762C82C0B2E98009DC141 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792762C72C0B2E98009DC141 /* SceneDelegate.swift */; };
-		792762CA2C0B2E98009DC141 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792762C92C0B2E98009DC141 /* ViewController.swift */; };
+		792762CA2C0B2E98009DC141 /* ArtistListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792762C92C0B2E98009DC141 /* ArtistListController.swift */; };
 		792762CD2C0B2E98009DC141 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 792762CC2C0B2E98009DC141 /* Base */; };
-		792762CF2C0B2E99009DC141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 792762CE2C0B2E99009DC141 /* Assets.xcassets */; };
 		792762D22C0B2E99009DC141 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 792762D12C0B2E99009DC141 /* Base */; };
+		792762DA2C0B2EA8009DC141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 792762D92C0B2EA8009DC141 /* Assets.xcassets */; };
+		792762DD2C0B2F62009DC141 /* ArtistList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792762DC2C0B2F62009DC141 /* ArtistList.swift */; };
+		792762E12C0B30E8009DC141 /* ArtistDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792762E02C0B30E8009DC141 /* ArtistDetailsViewController.swift */; };
+		792762E42C0B3FDE009DC141 /* ArtistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792762E32C0B3FDE009DC141 /* ArtistService.swift */; };
+		792762E72C0B463C009DC141 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792762E62C0B463C009DC141 /* ArtistTableViewCell.swift */; };
+		792762E92C0B6905009DC141 /* WorkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792762E82C0B6905009DC141 /* WorkTableViewCell.swift */; };
+		792762EC2C0B75B3009DC141 /* WorkDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792762EB2C0B75B3009DC141 /* WorkDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		792762C22C0B2E98009DC141 /* PicassoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicassoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		792762C52C0B2E98009DC141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		792762C72C0B2E98009DC141 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		792762C92C0B2E98009DC141 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		792762C92C0B2E98009DC141 /* ArtistListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListController.swift; sourceTree = "<group>"; };
 		792762CC2C0B2E98009DC141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		792762CE2C0B2E99009DC141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		792762D12C0B2E99009DC141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		792762D32C0B2E99009DC141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		792762D92C0B2EA8009DC141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		792762DC2C0B2F62009DC141 /* ArtistList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistList.swift; sourceTree = "<group>"; };
+		792762E02C0B30E8009DC141 /* ArtistDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsViewController.swift; sourceTree = "<group>"; };
+		792762E32C0B3FDE009DC141 /* ArtistService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistService.swift; sourceTree = "<group>"; };
+		792762E62C0B463C009DC141 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		792762E82C0B6905009DC141 /* WorkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTableViewCell.swift; sourceTree = "<group>"; };
+		792762EB2C0B75B3009DC141 /* WorkDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,69 @@
 		792762C42C0B2E98009DC141 /* PicassoApp */ = {
 			isa = PBXGroup;
 			children = (
-				792762C52C0B2E98009DC141 /* AppDelegate.swift */,
-				792762C72C0B2E98009DC141 /* SceneDelegate.swift */,
-				792762C92C0B2E98009DC141 /* ViewController.swift */,
-				792762CB2C0B2E98009DC141 /* Main.storyboard */,
-				792762CE2C0B2E99009DC141 /* Assets.xcassets */,
+				792762DF2C0B30CD009DC141 /* ViewControllers */,
+				792762DE2C0B3019009DC141 /* Storyboards */,
+				792762E52C0B4628009DC141 /* Views */,
+				792762DB2C0B2F22009DC141 /* Models */,
+				792762E22C0B3FCA009DC141 /* Services */,
+				792762EA2C0B7456009DC141 /* App */,
+				792762D92C0B2EA8009DC141 /* Assets.xcassets */,
 				792762D02C0B2E99009DC141 /* LaunchScreen.storyboard */,
-				792762D32C0B2E99009DC141 /* Info.plist */,
 			);
 			path = PicassoApp;
+			sourceTree = "<group>";
+		};
+		792762DB2C0B2F22009DC141 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				792762DC2C0B2F62009DC141 /* ArtistList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		792762DE2C0B3019009DC141 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				792762CB2C0B2E98009DC141 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		792762DF2C0B30CD009DC141 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				792762C92C0B2E98009DC141 /* ArtistListController.swift */,
+				792762E02C0B30E8009DC141 /* ArtistDetailsViewController.swift */,
+				792762EB2C0B75B3009DC141 /* WorkDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		792762E22C0B3FCA009DC141 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				792762E32C0B3FDE009DC141 /* ArtistService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		792762E52C0B4628009DC141 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				792762E62C0B463C009DC141 /* ArtistTableViewCell.swift */,
+				792762E82C0B6905009DC141 /* WorkTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		792762EA2C0B7456009DC141 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				792762C52C0B2E98009DC141 /* AppDelegate.swift */,
+				792762C72C0B2E98009DC141 /* SceneDelegate.swift */,
+				792762D32C0B2E99009DC141 /* Info.plist */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +191,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				792762CF2C0B2E99009DC141 /* Assets.xcassets in Resources */,
 				792762D22C0B2E99009DC141 /* Base in Resources */,
 				792762CD2C0B2E98009DC141 /* Base in Resources */,
+				792762DA2C0B2EA8009DC141 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				792762CA2C0B2E98009DC141 /* ViewController.swift in Sources */,
+				792762CA2C0B2E98009DC141 /* ArtistListController.swift in Sources */,
+				792762E92C0B6905009DC141 /* WorkTableViewCell.swift in Sources */,
+				792762EC2C0B75B3009DC141 /* WorkDetailsViewController.swift in Sources */,
 				792762C62C0B2E98009DC141 /* AppDelegate.swift in Sources */,
+				792762E72C0B463C009DC141 /* ArtistTableViewCell.swift in Sources */,
+				792762E42C0B3FDE009DC141 /* ArtistService.swift in Sources */,
+				792762DD2C0B2F62009DC141 /* ArtistList.swift in Sources */,
 				792762C82C0B2E98009DC141 /* SceneDelegate.swift in Sources */,
+				792762E12C0B30E8009DC141 /* ArtistDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,22 +366,26 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GNN7DQ637Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PicassoApp/Info.plist;
+				INFOPLIST_FILE = PicassoApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ivan-Semikin.PicassoApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,22 +398,26 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GNN7DQ637Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PicassoApp/Info.plist;
+				INFOPLIST_FILE = PicassoApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ivan-Semikin.PicassoApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
